@@ -60,7 +60,7 @@ export function PersonalInfo({ location, setLocation, isStudentForm }: Props) {
       </Form.Item>
       {isStudentForm ? (
         <>
-          <DataProcessingCheckbox isStudentForm />
+          <DataProcessingCheckbox />
           <FormButtons />
         </>
       ) : null}
